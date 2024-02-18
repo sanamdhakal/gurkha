@@ -188,12 +188,10 @@
 
   <div class="nav-scroller py-1 mb-3 border-bottom">
     <nav class="nav nav-underline justify-content-between">
-      <a class="nav-item nav-link link-body-emphasis" href="two.php">2 Players Game</a>
+      <a class="nav-item nav-link link-body-emphasis  active">2 Players Game</a>
       <a class="nav-item nav-link link-body-emphasis" href="three.php">3 Players Game</a>
-
-      <a class="nav-item nav-link link-body-emphasis  active">4 Players Game</a>
+      <a class="nav-item nav-link link-body-emphasis" href="index.php">4 Players Game</a>
       <a class="nav-item nav-link link-body-emphasis" href="five.php">5 Players Game</a>
-
       <a class="nav-item nav-link link-body-emphasis" href="six.php">6 Players Game</a>
 
     </nav>
@@ -236,12 +234,7 @@ $player3Hand = [];
 $player4Hand = [];
 $player5Hand = [];
 $player6Hand = [];
-$player7Hand = [];
-$player8Hand = [];
-$player9Hand = [];
-$player10Hand = [];
-$player11Hand = [];
-$player12Hand = [];
+
 
 // Distribute 3 cards to each player
 for ($i = 0; $i < 1; $i++) {
@@ -251,12 +244,6 @@ for ($i = 0; $i < 1; $i++) {
     $player4Hand[] = array_shift($deck);
 	$player5Hand[] = array_shift($deck);
     $player6Hand[] = array_shift($deck);
-    $player7Hand[] = array_shift($deck);
-    $player8Hand[] = array_shift($deck);
-	$player9Hand[] = array_shift($deck);
-    $player10Hand[] = array_shift($deck);
-    $player11Hand[] = array_shift($deck);
-    $player12Hand[] = array_shift($deck);
 }
 ?>
   
@@ -266,7 +253,7 @@ for ($i = 0; $i < 1; $i++) {
 
   <div class="row mb-2" style="zoom:120%">
     <div class="col-md-6">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-1 shadow-sm h-md-1 position-relative" style="background-color: #ff6666;">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-1 shadow-sm h-md-1 position-relative " style="background-color: #ff6666;">
         <div class="col p-1 d-flex flex-column position-relative">  
         <div class="container-fluid">
 			<div class="row">
@@ -455,187 +442,7 @@ for ($i = 0; $i < 1; $i++) {
   
   
   
-  <div class="row mb-2" style="zoom:120%">
-    
-	<div class="col-md-6">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-1 shadow-sm h-md-1 position-relative" style="background-color: #ffff66;">
-        <div class="col p-1 d-flex flex-column position-relative">  
-        <div class="container-fluid">
-			<div class="row">
-			
-				<div class="col">
-				<img id="image13" width="95%" height="95%" src="image/front.png" alt="Image 13" onclick="flipImage1314()">
-				<?php
-				foreach ($player7Hand as $card) {
-				echo '<img id="image14" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 14" style="display: none;" />';
-				}
-				?>
-				</div>
-				
-				<div class="col">
-				<img id="image15" width="95%" height="95%" src="image/front.png" alt="Image 15" onclick="flipImage1516()">
-				<?php
-				foreach ($player8Hand as $card) {
-				echo '<img id="image16" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 16" style="display: none;" />';
-				}
-				?>
-				</div>
-				
-				<div class="col">
-				<img id="image17" width="95%" height="95%" src="image/front.png" alt="Image 17" onclick="flipImage1718()">
-				<?php
-				foreach ($player9Hand as $card) {
-				echo '<img id="image18" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 18" style="display: none;" />';
-				}
-				?>
-				</div>
-				
-				
-				<script>
-				function flipImage1314() {
-				const image13 = document.getElementById('image13');
-				const image14 = document.getElementById('image14');
-
-			  if (image13.style.display !== 'none') {
-				image13.style.display = 'none';
-				image14.style.display = 'block';
-			  } else {
-				image13.style.display = 'block';
-				image14.style.display = 'none';
-			  }
-				}
-				</script>
-				
-				<script>
-				function flipImage1516() {
-				const image15 = document.getElementById('image15');
-				const image16 = document.getElementById('image16');
-
-			  if (image15.style.display !== 'none') {
-				image15.style.display = 'none';
-				image16.style.display = 'block';
-			  } else {
-				image15.style.display = 'block';
-				image16.style.display = 'none';
-			  }
-				}
-				</script>
-				
-				<script>
-				function flipImage1718() {
-				const image17 = document.getElementById('image17');
-				const image18 = document.getElementById('image18');
-
-			  if (image17.style.display !== 'none') {
-				image17.style.display = 'none';
-				image18.style.display = 'block';
-			  } else {
-				image17.style.display = 'block';
-				image18.style.display = 'none';
-			  }
-				}
-				</script>
-				
-				
-			</div>
-		</div>
-        </div>
-        <div class="col-auto d-none d-lg-block">
-          <svg class="bd-placeholder-img" width="30" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">3</text></svg>
-        </div>
-      </div>
-    </div>
-	
-	<div class="col-md-6">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-1 shadow-sm h-md-1 position-relative" style="background-color: #66ccff;">
-        <div class="col p-1 d-flex flex-column position-relative">  
-        <div class="container-fluid">
-			<div class="row">
-			
-				<div class="col">
-				<img id="image19" width="95%" height="95%" src="image/front.png" alt="Image 19" onclick="flipImage1920()">
-				<?php
-				foreach ($player10Hand as $card) {
-				echo '<img id="image20" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 20" style="display: none;" />';
-				}
-				?>
-				</div>
-				
-				<div class="col">
-				<img id="image21" width="95%" height="95%" src="image/front.png" alt="Image 21" onclick="flipImage2122()">
-				<?php
-				foreach ($player11Hand as $card) {
-				echo '<img id="image22" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 22" style="display: none;" />';
-				}
-				?>
-				</div>
-				
-				<div class="col">
-				<img id="image23" width="95%" height="95%" src="image/front.png" alt="Image 23" onclick="flipImage2324()">
-				<?php
-				foreach ($player12Hand as $card) {
-				echo '<img id="image24" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 24" style="display: none;" />';
-				}
-				?>
-				</div>
-				
-				
-				<script>
-				function flipImage1920() {
-				const image19 = document.getElementById('image19');
-				const image20 = document.getElementById('image20');
-
-			  if (image19.style.display !== 'none') {
-				image19.style.display = 'none';
-				image20.style.display = 'block';
-			  } else {
-				image19.style.display = 'block';
-				image20.style.display = 'none';
-			  }
-				}
-				</script>
-				
-				<script>
-				function flipImage2122() {
-				const image21 = document.getElementById('image21');
-				const image22 = document.getElementById('image22');
-
-			  if (image21.style.display !== 'none') {
-				image21.style.display = 'none';
-				image22.style.display = 'block';
-			  } else {
-				image21.style.display = 'block';
-				image22.style.display = 'none';
-			  }
-				}
-				</script>
-				
-				<script>
-				function flipImage2324() {
-				const image23 = document.getElementById('image23');
-				const image24 = document.getElementById('image24');
-
-			  if (image23.style.display !== 'none') {
-				image23.style.display = 'none';
-				image24.style.display = 'block';
-			  } else {
-				image24.style.display = 'block';
-				image24.style.display = 'none';
-			  }
-				}
-				</script>
-				
-				
-			</div>
-		</div>
-        </div>
-        <div class="col-auto d-none d-lg-block">
-          <svg class="bd-placeholder-img" width="30" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">4</text></svg>
-        </div>
-      </div>
-    </div>
-    
-  </div>
+  
   
   
   
@@ -646,9 +453,9 @@ for ($i = 0; $i < 1; $i++) {
 </main>
 
 <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
-  <p>The Fisher–Yates Shuffle Algorithm Design and Devlope by <a href="https://www.instagram.com/sanamdhakal/" target="_blank">@sanamdhakal</a>.</p>
+  <p>The Fisher–Yates Shuffle Algorithm Design and Devlope by @<a href="">Sanam Dhakal</a>.</p>
   <p class="mb-0">
-    © Copyrights 2023 Sanam Dhakal. All Rights Reserved.
+    <a href="#">© Copyrights 2023 Sanam Dhakal. All Rights Reserved.</a>
   </p>
 </footer>
 <script src="assets/dist/js/bootstrap.bundle.min.js"></script>

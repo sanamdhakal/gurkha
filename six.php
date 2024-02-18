@@ -190,11 +190,9 @@
     <nav class="nav nav-underline justify-content-between">
       <a class="nav-item nav-link link-body-emphasis" href="two.php">2 Players Game</a>
       <a class="nav-item nav-link link-body-emphasis" href="three.php">3 Players Game</a>
-
-      <a class="nav-item nav-link link-body-emphasis  active">4 Players Game</a>
+      <a class="nav-item nav-link link-body-emphasis" href="index.php">4 Players Game</a>
       <a class="nav-item nav-link link-body-emphasis" href="five.php">5 Players Game</a>
-
-      <a class="nav-item nav-link link-body-emphasis" href="six.php">6 Players Game</a>
+      <a class="nav-item nav-link link-body-emphasis active" >6 Players Game</a>
 
     </nav>
   </div>
@@ -242,6 +240,12 @@ $player9Hand = [];
 $player10Hand = [];
 $player11Hand = [];
 $player12Hand = [];
+$player13Hand = [];
+$player14Hand = [];
+$player15Hand = [];
+$player16Hand = [];
+$player17Hand = [];
+$player18Hand = [];
 
 // Distribute 3 cards to each player
 for ($i = 0; $i < 1; $i++) {
@@ -257,6 +261,12 @@ for ($i = 0; $i < 1; $i++) {
     $player10Hand[] = array_shift($deck);
     $player11Hand[] = array_shift($deck);
     $player12Hand[] = array_shift($deck);
+	$player13Hand[] = array_shift($deck);
+    $player14Hand[] = array_shift($deck);
+	$player15Hand[] = array_shift($deck);
+    $player16Hand[] = array_shift($deck);
+    $player17Hand[] = array_shift($deck);
+    $player18Hand[] = array_shift($deck);
 }
 ?>
   
@@ -637,6 +647,196 @@ for ($i = 0; $i < 1; $i++) {
     
   </div>
   
+
+
+
+
+
+
+
+  <div class="row mb-2" style="zoom:120%">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-1 shadow-sm h-md-1 position-relative" style="background-color: #ff9966;">
+        <div class="col p-1 d-flex flex-column position-relative">  
+        <div class="container-fluid">
+			<div class="row">
+			
+				<div class="col">
+				<img id="image25" width="95%" height="95%" src="image/front.png" alt="Image 25" onclick="flipImage2526()">
+				<?php
+				foreach ($player13Hand as $card) {
+				echo '<img id="image26" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 26" style="display: none;" />';
+				}
+				?>
+				</div>
+				
+				<div class="col">
+				<img id="image27" width="95%" height="95%" src="image/front.png" alt="Image 27" onclick="flipImage2728()">
+				<?php
+				foreach ($player14Hand as $card) {
+				echo '<img id="image28" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 28" style="display: none;" />';
+				}
+				?>
+				</div>
+				
+				<div class="col">
+				<img id="image29" width="95%" height="95%" src="image/front.png" alt="Image 29" onclick="flipImage2930()">
+				<?php
+				foreach ($player15Hand as $card) {
+				echo '<img id="image30" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 30" style="display: none;" />';
+				}
+				?>
+				</div>
+				
+				
+				<script>
+				function flipImage2526() {
+				const image25 = document.getElementById('image25');
+				const image26 = document.getElementById('image26');
+
+			  if (image25.style.display !== 'none') {
+				image25.style.display = 'none';
+				image26.style.display = 'block';
+			  } else {
+				image25.style.display = 'block';
+				image26.style.display = 'none';
+			  }
+				}
+				</script>
+				
+				<script>
+				function flipImage2728() {
+				const image27 = document.getElementById('image27');
+				const image28 = document.getElementById('image28');
+
+			  if (image27.style.display !== 'none') {
+				image27.style.display = 'none';
+				image28.style.display = 'block';
+			  } else {
+				image27.style.display = 'block';
+				image28.style.display = 'none';
+			  }
+				}
+				</script>
+				
+				<script>
+				function flipImage2930() {
+				const image29 = document.getElementById('image29');
+				const image30 = document.getElementById('image30');
+
+			  if (image29.style.display !== 'none') {
+				image29.style.display = 'none';
+				image30.style.display = 'block';
+			  } else {
+				image29.style.display = 'block';
+				image30.style.display = 'none';
+			  }
+				}
+				</script>
+				
+				
+			</div>
+		</div>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="30" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">5</text></svg>
+        </div>
+      </div>
+    </div>
+	
+	
+	
+	<div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-1 shadow-sm h-md-1 position-relative" style="background-color: #9966ff;">
+        <div class="col p-1 d-flex flex-column position-relative">  
+        <div class="container-fluid">
+			<div class="row">
+			
+				<div class="col">
+				<img id="image31" width="95%" height="95%" src="image/front.png" alt="Image 31" onclick="flipImage3132()">
+				<?php
+				foreach ($player16Hand as $card) {
+				echo '<img id="image32" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 32" style="display: none;" />';
+				}
+				?>
+				</div>
+				
+				<div class="col">
+				<img id="image33" width="95%" height="95%" src="image/front.png" alt="Image 33" onclick="flipImage3334()">
+				<?php
+				foreach ($player17Hand as $card) {
+				echo '<img id="image34" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 34" style="display: none;" />';
+				}
+				?>
+				</div>
+				
+				<div class="col">
+				<img id="image35" width="95%" height="95%" src="image/front.png" alt="Image 35" onclick="flipImage3536()">
+				<?php
+				foreach ($player18Hand as $card) {
+				echo '<img id="image36" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 36" style="display: none;" />';
+				}
+				?>
+				</div>
+				
+				
+				<script>
+				function flipImage3132() {
+				const image31 = document.getElementById('image31');
+				const image32 = document.getElementById('image32');
+
+			  if (image31.style.display !== 'none') {
+				image31.style.display = 'none';
+				image32.style.display = 'block';
+			  } else {
+				image31.style.display = 'block';
+				image32.style.display = 'none';
+			  }
+				}
+				</script>
+				
+				<script>
+				function flipImage3334() {
+				const image33 = document.getElementById('image33');
+				const image34 = document.getElementById('image34');
+
+			  if (image33.style.display !== 'none') {
+				image33.style.display = 'none';
+				image34.style.display = 'block';
+			  } else {
+				image33.style.display = 'block';
+				image34.style.display = 'none';
+			  }
+				}
+				</script>
+				
+				<script>
+				function flipImage3536() {
+				const image35 = document.getElementById('image35');
+				const image36 = document.getElementById('image36');
+
+			  if (image35.style.display !== 'none') {
+				image35.style.display = 'none';
+				image36.style.display = 'block';
+			  } else {
+				image35.style.display = 'block';
+				image36.style.display = 'none';
+			  }
+				}
+				</script>
+				
+				
+			</div>
+		</div>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="30" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">6</text></svg>
+        </div>
+      </div>
+    </div>
+	
+	
+  </div>
   
   
   
@@ -646,9 +846,9 @@ for ($i = 0; $i < 1; $i++) {
 </main>
 
 <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
-  <p>The Fisher–Yates Shuffle Algorithm Design and Devlope by <a href="https://www.instagram.com/sanamdhakal/" target="_blank">@sanamdhakal</a>.</p>
+  <p>The Fisher–Yates Shuffle Algorithm Design and Devlope by @<a href="">Sanam Dhakal</a>.</p>
   <p class="mb-0">
-    © Copyrights 2023 Sanam Dhakal. All Rights Reserved.
+    <a href="#">© Copyrights 2023 Sanam Dhakal. All Rights Reserved.</a>
   </p>
 </footer>
 <script src="assets/dist/js/bootstrap.bundle.min.js"></script>

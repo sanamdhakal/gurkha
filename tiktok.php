@@ -121,6 +121,9 @@
       </symbol>
     </svg>
 
+<br><br><br><br><br>
+<br><br><br><br><br>
+
     <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
       <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
               id="bd-theme"
@@ -190,11 +193,9 @@
     <nav class="nav nav-underline justify-content-between">
       <a class="nav-item nav-link link-body-emphasis" href="two.php">2 Players Game</a>
       <a class="nav-item nav-link link-body-emphasis" href="three.php">3 Players Game</a>
-
-      <a class="nav-item nav-link link-body-emphasis  active">4 Players Game</a>
+      <a class="nav-item nav-link link-body-emphasis" href="index.php">4 Players Game</a>
       <a class="nav-item nav-link link-body-emphasis" href="five.php">5 Players Game</a>
-
-      <a class="nav-item nav-link link-body-emphasis" href="six.php">6 Players Game</a>
+      <a class="nav-item nav-link link-body-emphasis active" >6 Players Game</a>
 
     </nav>
   </div>
@@ -242,6 +243,24 @@ $player9Hand = [];
 $player10Hand = [];
 $player11Hand = [];
 $player12Hand = [];
+$player13Hand = [];
+$player14Hand = [];
+$player15Hand = [];
+$player16Hand = [];
+$player17Hand = [];
+$player18Hand = [];
+$player19Hand = [];
+$player20Hand = [];
+$player21Hand = [];
+$player22Hand = [];
+$player23Hand = [];
+$player24Hand = [];
+$player25Hand = [];
+$player26Hand = [];
+$player27Hand = [];
+$player28Hand = [];
+$player29Hand = [];
+$player30Hand = [];
 
 // Distribute 3 cards to each player
 for ($i = 0; $i < 1; $i++) {
@@ -249,15 +268,34 @@ for ($i = 0; $i < 1; $i++) {
     $player2Hand[] = array_shift($deck);
     $player3Hand[] = array_shift($deck);
     $player4Hand[] = array_shift($deck);
-	$player5Hand[] = array_shift($deck);
+	  $player5Hand[] = array_shift($deck);
     $player6Hand[] = array_shift($deck);
     $player7Hand[] = array_shift($deck);
     $player8Hand[] = array_shift($deck);
-	$player9Hand[] = array_shift($deck);
+	  $player9Hand[] = array_shift($deck);
     $player10Hand[] = array_shift($deck);
     $player11Hand[] = array_shift($deck);
     $player12Hand[] = array_shift($deck);
+	  $player13Hand[] = array_shift($deck);
+    $player14Hand[] = array_shift($deck);
+	  $player15Hand[] = array_shift($deck);
+    $player16Hand[] = array_shift($deck);
+    $player17Hand[] = array_shift($deck);
+    $player18Hand[] = array_shift($deck);
+    $player19Hand[] = array_shift($deck);
+    $player20Hand[] = array_shift($deck);
+    $player21Hand[] = array_shift($deck);
+    $player22Hand[] = array_shift($deck);
+    $player23Hand[] = array_shift($deck);
+    $player24Hand[] = array_shift($deck);
+    $player25Hand[] = array_shift($deck);
+    $player26Hand[] = array_shift($deck);
+    $player27Hand[] = array_shift($deck);
+    $player28Hand[] = array_shift($deck);
+    $player29Hand[] = array_shift($deck);
+    $player30Hand[] = array_shift($deck);
 }
+
 ?>
   
   
@@ -266,7 +304,7 @@ for ($i = 0; $i < 1; $i++) {
 
   <div class="row mb-2" style="zoom:120%">
     <div class="col-md-6">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-1 shadow-sm h-md-1 position-relative" style="background-color: #ff6666;">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-1 shadow-sm h-md-1 position-relative" style="background-color: #b45248;">
         <div class="col p-1 d-flex flex-column position-relative">  
         <div class="container-fluid">
 			<div class="row">
@@ -357,7 +395,7 @@ for ($i = 0; $i < 1; $i++) {
 	
 	
 	<div class="col-md-6">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-1 shadow-sm h-md-1 position-relative" style="background-color: #99ff99;">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-1 shadow-sm h-md-1 position-relative" style="background-color: #3cb464;">
         <div class="col p-1 d-flex flex-column position-relative">  
         <div class="container-fluid">
 			<div class="row">
@@ -458,7 +496,7 @@ for ($i = 0; $i < 1; $i++) {
   <div class="row mb-2" style="zoom:120%">
     
 	<div class="col-md-6">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-1 shadow-sm h-md-1 position-relative" style="background-color: #ffff66;">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-1 shadow-sm h-md-1 position-relative" style="background-color: #a89a49;">
         <div class="col p-1 d-flex flex-column position-relative">  
         <div class="container-fluid">
 			<div class="row">
@@ -547,7 +585,7 @@ for ($i = 0; $i < 1; $i++) {
     </div>
 	
 	<div class="col-md-6">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-1 shadow-sm h-md-1 position-relative" style="background-color: #66ccff;">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-1 shadow-sm h-md-1 position-relative" style="background-color: #643c6a;">
         <div class="col p-1 d-flex flex-column position-relative">  
         <div class="container-fluid">
 			<div class="row">
@@ -637,18 +675,621 @@ for ($i = 0; $i < 1; $i++) {
     
   </div>
   
+
+
+
+
+
+
+
+  <div class="row mb-2" style="zoom:120%">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-1 shadow-sm h-md-1 position-relative" style="background-color: #8cdaec;">
+        <div class="col p-1 d-flex flex-column position-relative">  
+        <div class="container-fluid">
+			<div class="row">
+			
+				<div class="col">
+				<img id="image25" width="95%" height="95%" src="image/front.png" alt="Image 25" onclick="flipImage2526()">
+				<?php
+				foreach ($player13Hand as $card) {
+				echo '<img id="image26" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 26" style="display: none;" />';
+				}
+				?>
+				</div>
+				
+				<div class="col">
+				<img id="image27" width="95%" height="95%" src="image/front.png" alt="Image 27" onclick="flipImage2728()">
+				<?php
+				foreach ($player14Hand as $card) {
+				echo '<img id="image28" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 28" style="display: none;" />';
+				}
+				?>
+				</div>
+				
+				<div class="col">
+				<img id="image29" width="95%" height="95%" src="image/front.png" alt="Image 29" onclick="flipImage2930()">
+				<?php
+				foreach ($player15Hand as $card) {
+				echo '<img id="image30" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 30" style="display: none;" />';
+				}
+				?>
+				</div>
+				
+				
+				<script>
+				function flipImage2526() {
+				const image25 = document.getElementById('image25');
+				const image26 = document.getElementById('image26');
+
+			  if (image25.style.display !== 'none') {
+				image25.style.display = 'none';
+				image26.style.display = 'block';
+			  } else {
+				image25.style.display = 'block';
+				image26.style.display = 'none';
+			  }
+				}
+				</script>
+				
+				<script>
+				function flipImage2728() {
+				const image27 = document.getElementById('image27');
+				const image28 = document.getElementById('image28');
+
+			  if (image27.style.display !== 'none') {
+				image27.style.display = 'none';
+				image28.style.display = 'block';
+			  } else {
+				image27.style.display = 'block';
+				image28.style.display = 'none';
+			  }
+				}
+				</script>
+				
+				<script>
+				function flipImage2930() {
+				const image29 = document.getElementById('image29');
+				const image30 = document.getElementById('image30');
+
+			  if (image29.style.display !== 'none') {
+				image29.style.display = 'none';
+				image30.style.display = 'block';
+			  } else {
+				image29.style.display = 'block';
+				image30.style.display = 'none';
+			  }
+				}
+				</script>
+				
+				
+			</div>
+		</div>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="30" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">5</text></svg>
+        </div>
+      </div>
+    </div>
+	
+	
+	
+	<div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-1 shadow-sm h-md-1 position-relative" style="background-color: #d6cfa2;">
+        <div class="col p-1 d-flex flex-column position-relative">  
+        <div class="container-fluid">
+			<div class="row">
+			
+				<div class="col">
+				<img id="image31" width="95%" height="95%" src="image/front.png" alt="Image 31" onclick="flipImage3132()">
+				<?php
+				foreach ($player16Hand as $card) {
+				echo '<img id="image32" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 32" style="display: none;" />';
+				}
+				?>
+				</div>
+				
+				<div class="col">
+				<img id="image33" width="95%" height="95%" src="image/front.png" alt="Image 33" onclick="flipImage3334()">
+				<?php
+				foreach ($player17Hand as $card) {
+				echo '<img id="image34" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 34" style="display: none;" />';
+				}
+				?>
+				</div>
+				
+				<div class="col">
+				<img id="image35" width="95%" height="95%" src="image/front.png" alt="Image 35" onclick="flipImage3536()">
+				<?php
+				foreach ($player18Hand as $card) {
+				echo '<img id="image36" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 36" style="display: none;" />';
+				}
+				?>
+				</div>
+				
+				
+				<script>
+				function flipImage3132() {
+				const image31 = document.getElementById('image31');
+				const image32 = document.getElementById('image32');
+
+			  if (image31.style.display !== 'none') {
+				image31.style.display = 'none';
+				image32.style.display = 'block';
+			  } else {
+				image31.style.display = 'block';
+				image32.style.display = 'none';
+			  }
+				}
+				</script>
+				
+				<script>
+				function flipImage3334() {
+				const image33 = document.getElementById('image33');
+				const image34 = document.getElementById('image34');
+
+			  if (image33.style.display !== 'none') {
+				image33.style.display = 'none';
+				image34.style.display = 'block';
+			  } else {
+				image33.style.display = 'block';
+				image34.style.display = 'none';
+			  }
+				}
+				</script>
+				
+				<script>
+				function flipImage3536() {
+				const image35 = document.getElementById('image35');
+				const image36 = document.getElementById('image36');
+
+			  if (image35.style.display !== 'none') {
+				image35.style.display = 'none';
+				image36.style.display = 'block';
+			  } else {
+				image35.style.display = 'block';
+				image36.style.display = 'none';
+			  }
+				}
+				</script>
+				
+				
+			</div>
+		</div>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="30" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">6</text></svg>
+        </div>
+      </div>
+    </div>
+	
+	
+  </div>
   
   
   
+
+
+
+
+
+  <div class="row mb-2" style="zoom:120%">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-1 shadow-sm h-md-1 position-relative" style="background-color: #d48c84;">
+        <div class="col p-1 d-flex flex-column position-relative">  
+        <div class="container-fluid">
+      <div class="row">
+      
+        <div class="col">
+        <img id="image37" width="95%" height="95%" src="image/front.png" alt="Image 37" onclick="flipImage3738()">
+        <?php
+        foreach ($player19Hand as $card) {
+        echo '<img id="image38" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 38" style="display: none;" />';
+        }
+        ?>
+        </div>
+        
+        <div class="col">
+        <img id="image39" width="95%" height="95%" src="image/front.png" alt="Image 39" onclick="flipImage3940()">
+        <?php
+        foreach ($player20Hand as $card) {
+        echo '<img id="image40" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 40" style="display: none;" />';
+        }
+        ?>
+        </div>
+        
+        <div class="col">
+        <img id="image41" width="95%" height="95%" src="image/front.png" alt="Image 41" onclick="flipImage4142()">
+        <?php
+        foreach ($player21Hand as $card) {
+        echo '<img id="image42" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 42" style="display: none;" />';
+        }
+        ?>
+        </div>
+        
+        
+        <script>
+        function flipImage3738() {
+        const image37 = document.getElementById('image37');
+        const image38 = document.getElementById('image38');
+
+        if (image37.style.display !== 'none') {
+        image37.style.display = 'none';
+        image38.style.display = 'block';
+        } else {
+        image37.style.display = 'block';
+        image38.style.display = 'none';
+        }
+        }
+        </script>
+        
+        <script>
+        function flipImage3940() {
+        const image39 = document.getElementById('image39');
+        const image40 = document.getElementById('image40');
+
+        if (image39.style.display !== 'none') {
+        image39.style.display = 'none';
+        image40.style.display = 'block';
+        } else {
+        image39.style.display = 'block';
+        image40.style.display = 'none';
+        }
+        }
+        </script>
+        
+        <script>
+        function flipImage4142() {
+        const image41 = document.getElementById('image41');
+        const image42 = document.getElementById('image42');
+
+        if (image41.style.display !== 'none') {
+        image41.style.display = 'none';
+        image42.style.display = 'block';
+        } else {
+        image41.style.display = 'block';
+        image42.style.display = 'none';
+        }
+        }
+        </script>
+        
+        
+      </div>
+    </div>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="30" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">7</text></svg>
+        </div>
+      </div>
+    </div>
+  
+  
+  
+  <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-1 shadow-sm h-md-1 position-relative" style="background-color: #9bddb1;">
+        <div class="col p-1 d-flex flex-column position-relative">  
+        <div class="container-fluid">
+      <div class="row">
+      
+        <div class="col">
+        <img id="image43" width="95%" height="95%" src="image/front.png" alt="Image 43" onclick="flipImage4344()">
+        <?php
+        foreach ($player22Hand as $card) {
+        echo '<img id="image44" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 44" style="display: none;" />';
+        }
+        ?>
+        </div>
+        
+        <div class="col">
+        <img id="image45" width="95%" height="95%" src="image/front.png" alt="Image 45" onclick="flipImage4546()">
+        <?php
+        foreach ($player23Hand as $card) {
+        echo '<img id="image46" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 46" style="display: none;" />';
+        }
+        ?>
+        </div>
+        
+        <div class="col">
+        <img id="image47" width="95%" height="95%" src="image/front.png" alt="Image 47" onclick="flipImage4748()">
+        <?php
+        foreach ($player24Hand as $card) {
+        echo '<img id="image48" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 48" style="display: none;" />';
+        }
+        ?>
+        </div>
+        
+        
+        <script>
+        function flipImage4344() {
+        const image43 = document.getElementById('image43');
+        const image44 = document.getElementById('image44');
+
+        if (image43.style.display !== 'none') {
+        image43.style.display = 'none';
+        image44.style.display = 'block';
+        } else {
+        image43.style.display = 'block';
+        image44.style.display = 'none';
+        }
+        }
+        </script>
+        
+        <script>
+        function flipImage4546() {
+        const image45 = document.getElementById('image45');
+        const image46 = document.getElementById('image46');
+
+        if (image45.style.display !== 'none') {
+        image45.style.display = 'none';
+        image46.style.display = 'block';
+        } else {
+        image45.style.display = 'block';
+        image46.style.display = 'none';
+        }
+        }
+        </script>
+        
+        <script>
+        function flipImage4748() {
+        const image47 = document.getElementById('image47');
+        const image48 = document.getElementById('image48');
+
+        if (image47.style.display !== 'none') {
+        image47.style.display = 'none';
+        image48.style.display = 'block';
+        } else {
+        image47.style.display = 'block';
+        image48.style.display = 'none';
+        }
+        }
+        </script>
+        
+        
+      </div>
+    </div>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="30" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">8</text></svg>
+        </div>
+      </div>
+    </div>
+  
+  
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row mb-2" style="zoom:120%">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-1 shadow-sm h-md-1 position-relative" style="background-color: #167288;">
+        <div class="col p-1 d-flex flex-column position-relative">  
+        <div class="container-fluid">
+      <div class="row">
+      
+        <div class="col">
+        <img id="image49" width="95%" height="95%" src="image/front.png" alt="Image 49" onclick="flipImage4950()">
+        <?php
+        foreach ($player25Hand as $card) {
+        echo '<img id="image50" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 50" style="display: none;" />';
+        }
+        ?>
+        </div>
+        
+        <div class="col">
+        <img id="image51" width="95%" height="95%" src="image/front.png" alt="Image 51" onclick="flipImage5152()">
+        <?php
+        foreach ($player26Hand as $card) {
+        echo '<img id="image52" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 52" style="display: none;" />';
+        }
+        ?>
+        </div>
+        
+        <div class="col">
+        <img id="image53" width="95%" height="95%" src="image/front.png" alt="Image 53" onclick="flipImage5354()">
+        <?php
+        foreach ($player27Hand as $card) {
+        echo '<img id="image54" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 54" style="display: none;" />';
+        }
+        ?>
+        </div>
+        
+        
+        <script>
+        function flipImage4950() {
+        const image49 = document.getElementById('image49');
+        const image50 = document.getElementById('image50');
+
+        if (image49.style.display !== 'none') {
+        image49.style.display = 'none';
+        image50.style.display = 'block';
+        } else {
+        image49.style.display = 'block';
+        image50.style.display = 'none';
+        }
+        }
+        </script>
+        
+        <script>
+        function flipImage5152() {
+        const image51 = document.getElementById('image51');
+        const image52 = document.getElementById('image52');
+
+        if (image51.style.display !== 'none') {
+        image51.style.display = 'none';
+        image52.style.display = 'block';
+        } else {
+        image51.style.display = 'block';
+        image52.style.display = 'none';
+        }
+        }
+        </script>
+        
+        <script>
+        function flipImage5354() {
+        const image53 = document.getElementById('image53');
+        const image54 = document.getElementById('image54');
+
+        if (image53.style.display !== 'none') {
+        image53.style.display = 'none';
+        image54.style.display = 'block';
+        } else {
+        image53.style.display = 'block';
+        image54.style.display = 'none';
+        }
+        }
+        </script>
+        
+        
+      </div>
+    </div>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="30" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">9</text></svg>
+        </div>
+      </div>
+    </div>
+  
+  
+  
+  <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-1 shadow-sm h-md-1 position-relative" style="background-color: #836394;">
+        <div class="col p-1 d-flex flex-column position-relative">  
+        <div class="container-fluid">
+      <div class="row">
+      
+        <div class="col">
+        <img id="image55" width="95%" height="95%" src="image/front.png" alt="Image 55" onclick="flipImage5556()">
+        <?php
+        foreach ($player28Hand as $card) {
+        echo '<img id="image56" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 56" style="display: none;" />';
+        }
+        ?>
+        </div>
+        
+        <div class="col">
+        <img id="image57" width="95%" height="95%" src="image/front.png" alt="Image 57" onclick="flipImage5758()">
+        <?php
+        foreach ($player29Hand as $card) {
+        echo '<img id="image58" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 58" style="display: none;" />';
+        }
+        ?>
+        </div>
+        
+        <div class="col">
+        <img id="image59" width="95%" height="95%" src="image/front.png" alt="Image 59" onclick="flipImage5960()">
+        <?php
+        foreach ($player30Hand as $card) {
+        echo '<img id="image60" src="image/'.$card.'.png" width="95%" height="95%" alt="Image 60" style="display: none;" />';
+        }
+        ?>
+        </div>
+        
+        
+        <script>
+        function flipImage5556() {
+        const image55 = document.getElementById('image55');
+        const image56 = document.getElementById('image56');
+
+        if (image55.style.display !== 'none') {
+        image55.style.display = 'none';
+        image56.style.display = 'block';
+        } else {
+        image55.style.display = 'block';
+        image56.style.display = 'none';
+        }
+        }
+        </script>
+        
+        <script>
+        function flipImage5758() {
+        const image57 = document.getElementById('image57');
+        const image58 = document.getElementById('image58');
+
+        if (image57.style.display !== 'none') {
+        image57.style.display = 'none';
+        image58.style.display = 'block';
+        } else {
+        image57.style.display = 'block';
+        image58.style.display = 'none';
+        }
+        }
+        </script>
+        
+        <script>
+        function flipImage5960() {
+        const image59 = document.getElementById('image59');
+        const image60 = document.getElementById('image60');
+
+        if (image59.style.display !== 'none') {
+        image59.style.display = 'none';
+        image60.style.display = 'block';
+        } else {
+        image59.style.display = 'block';
+        image60.style.display = 'none';
+        }
+        }
+        </script>
+        
+        
+      </div>
+    </div>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="30" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">10</text></svg>
+        </div>
+      </div>
+    </div>
+  
+  
+  </div>
+
+
+
 
   
 
 </main>
 
 <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
-  <p>The Fisher–Yates Shuffle Algorithm Design and Devlope by <a href="https://www.instagram.com/sanamdhakal/" target="_blank">@sanamdhakal</a>.</p>
+  <p>The Fisher–Yates Shuffle Algorithm Design and Devlope by @<a href="">sanamdhakal</a>.</p>
   <p class="mb-0">
-    © Copyrights 2023 Sanam Dhakal. All Rights Reserved.
+    <a href="#">© Copyrights 2023 Sanam Dhakal. All Rights Reserved.</a>
   </p>
 </footer>
 <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
