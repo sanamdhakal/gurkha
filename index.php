@@ -1,8 +1,8 @@
 <?php
 // Number guessing game
 
-// Generate a random number between 1 and 100
-$number = rand(1, 100);
+// Generate a random number between 1 and 3
+$number = rand(1, 3);
 
 // Initialize variables
 $guess = null;
@@ -14,8 +14,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $guess = $_POST['guess'];
 
     // Validate the guess
-    if (!is_numeric($guess) || $guess < 1 || $guess > 100) {
-        $message = "Please enter a valid number between 1 and 100.";
+    if (!is_numeric($guess) || $guess < 1 || $guess > 3) {
+        $message = "Please enter a valid number between 1 and 3.";
     } else {
         // Compare the guess with the random number
         if ($guess < $number) {
@@ -39,9 +39,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <h1>Number Guessing Game</h1>
-    <p>Guess a number between 1 and 100:</p>
+    <p>Guess a number between 1 and 3:</p>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-        <input type="number" name="guess" min="1" max="100" required>
+        <input type="number" name="guess" min="1" max="3" required>
         <input type="submit" value="Submit">
     </form>
     <p><?php echo $message; ?></p>
