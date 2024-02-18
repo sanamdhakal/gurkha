@@ -201,9 +201,6 @@
 </div>
 
 <main class="container-fluid">
-  
-  
-  
   <?php
 // Create an array of 52 cards
 $suits = ["hearts", "diamonds", "clubs", "spades"];
@@ -648,7 +645,7 @@ for ($i = 0; $i < 1; $i++) {
 <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
   <p>The Fisher–Yates Shuffle Algorithm Design and Devlope by <a href="https://www.instagram.com/sanamdhakal/" target="_blank">@sanamdhakal</a>.</p>
   <p class="mb-0">
-    © Copyrights 2023 Sanam Dhakal. All Rights Reserved.
+    © Copyrights 2024 Sanam Dhakal. All Rights Reserved.
   </p>
 </footer>
 <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
